@@ -1,0 +1,136 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  background-image: url("../images/cover.png");
+  background-position: center;
+  background-size: cover;
+  padding: 64px 140px;
+}
+
+/* section */
+
+.inner-container {
+  /* width: calc(1160 / 1440 * 100%); */
+  padding: 40px;
+  background: #1c1325cc;
+  border: 1px solid #b052b5c9;
+  border-radius: 10px;
+  display: flex;
+  column-gap: 66px;
+}
+.form-section {
+  align-items: center;
+  row-gap: 80px;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  row-gap: 40px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+
+.input-section {
+  column-gap: 24px;
+  display: flex;
+}
+.form-section h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  text-shadow: 2px 4px 4px #f90cefb5;
+}
+
+input {
+  width: 100%;
+  height: 48px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+  padding-left: 11px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.textarea-label {
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+textarea {
+  width: 100%;
+  height: 112px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+  padding-left: 11px;
+  resize: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.form-section button {
+    width: 100%;
+      height: 64px;
+  background-color: #f30aea;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* map-section */
+.map-section {
+  width: 494px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+}
+
+.social-wrap {
+  display: flex;
+  justify-content: center;
+  column-gap: 72px;
+}
+
+.social-wrap button {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  background-color: #f30aea;
+  cursor: pointer;
+}
+
+.social-wrap img {
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  width: 100%;
+  height: 338px;
+  border-radius: 10px;
+}

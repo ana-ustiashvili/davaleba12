@@ -1,0 +1,47 @@
+@media (max-width: 481px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .inner-container {
+    padding: 16px;
+  }
+  form {
+    row-gap: 36px;
+  }
+  .form-section {
+    row-gap: 40px;
+  }
+  .input-section {
+    row-gap: 36px;
+    flex-direction: column;
+  }
+  .map-section {
+    row-gap: 40px;
+  }
+  iframe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 377px) {
+    .container {
+        padding: 16px 8px;
+    }
+    .inner-container {
+        padding-inline: 8px;
+        row-gap: 48px;
+    }
+    form {
+        row-gap: 24px;
+    }
+    .form-section {
+        row-gap: 24px;
+      }
+    .input-section {
+        row-gap: 24px;
+    }
+    .map-section {
+        row-gap: 24px;
+      }
+  
+}

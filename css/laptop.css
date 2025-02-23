@@ -1,0 +1,22 @@
+@media (max-width: 1001px) {
+    .container {
+        padding-inline: 24px;
+    }
+}
+
+@media (max-width: 801px) {
+    .container {
+        padding: 32px 24px;
+    }
+    .inner-container {
+        padding-inline: 16px;
+        flex-direction: column;
+        row-gap: 64px;
+    }
+    .form-section {
+        width: 100%;
+    }
+    .map-section {
+        width: 100%;
+    }
+}
